@@ -1,0 +1,11 @@
+title: "dcがいかに素敵なプログラミング言語であるか伝えたい "
+summary: "プログラミング言語 dc の紹介"
+topics:
+  - dc
+  - プログラミング言語
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - preface
+  - intro
