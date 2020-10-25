@@ -13,3 +13,5 @@ chapters:
   - stack
   - commands-stack
   - commands-calc
+  - commands-exec
+  - registers
