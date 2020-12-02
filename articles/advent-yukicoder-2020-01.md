@@ -4,6 +4,7 @@ emoji: "🍣"
 type: "idea"
 topics:
 - 競技プログラミング
+- yukicoder
 published: true
 
 ---
