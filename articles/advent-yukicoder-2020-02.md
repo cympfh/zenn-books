@@ -5,7 +5,7 @@ type: "idea"
 topics:
 - 競技プログラミング
 - yukicoder
-published: false
+published: true
 
 ---
 
