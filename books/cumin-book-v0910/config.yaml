@@ -10,7 +10,7 @@ chapters:
 - intro.md
 - install.md
 - types.md
-- numbers.md
+- number.md
 - strings.md
 - boolean.md
 - arrays.md
