@@ -10,7 +10,7 @@ published: true
 
 ## 問題
 
-- [引用元](https://atcoder.jp/contests/abc192/tasks/abc192_d)
+- [引用元://atcoder.jp/contests/abc192/tasks/abc192_d](https://atcoder.jp/contests/abc192/tasks/abc192_d)
 
 `[0-9]+` な文字列 $X$ と整数 $M$ がある.
 $X$ を $n$ 進数と見なして $M$ 以下であるような数は何種類作れるか.

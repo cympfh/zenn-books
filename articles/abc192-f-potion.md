@@ -10,7 +10,7 @@ published: true
 
 ## 問題
 
-- [引用元](https://atcoder.jp/contests/abc192/tasks/abc192_f
+- [引用元://atcoder.jp/contests/abc192/tasks/abc192_f](https://atcoder.jp/contests/abc192/tasks/abc192_f)
 
 長さ $N$ の正数列 $A_i$ と, 大きな数 $X (X \leq \sum_i A_i)$ が与えられる.
 $A_i$ から $k (0 \leq k \leq N)$ 個選んでその和を $S$ だとする.
