@@ -1,0 +1,28 @@
+title: "cumin v0.9.10"
+summary: "cumin のマニュアル"
+topics:
+- "cumin"
+- "設定ファイル"
+published: true
+price: 0
+
+chapters:
+- intro.md
+- install.md
+- types.md
+- numbers.md
+- strings.md
+- boolean.md
+- arrays.md
+- options.md
+- comparison.md
+- operators.md
+- struct.md
+- enum.md
+- let.md
+- functions.md
+- blocks.md
+- comments.md
+- dictionaries.md
+- cumincode.md
+- modules.md
