@@ -147,3 +147,34 @@ type Age = Nat;
     - やるとしたら `struct Age { value: Nat }` とか？
 
 といった利点が考えられます.
+
+## 集合的意味論
+
+:::message info
+ここは読み飛ばしてもらって構いません
+:::
+
+型に対してその型をとり得る値の集合というものを対応付けて考えます.  例えば `Nat` に対しては自然数の集合 $\mathbb N$ （厳密なことは気にしません）が, `Bool` には $\{ \mathrm{true} , \mathrm{false} \}$ が対応します.
+
+合併型
+$$\mathrm{type} ~ T = S_1 \mid S_2 \mid \cdots \mid S_n ;$$
+は, 次のような和集合の関係を言っています.
+$$T = S_1 \cup S_2 \cup \cdots \cup S_n ;$$
+
+そしてこの時, 各 $S_i$ について, その値をそのまま埋め込むという自然な包含写像
+$$i \colon S_i \to T$$ $$x \mapsto x$$ が考えられます.
+この写像のことを cumin では合併型の名前をそのまま流用して `T` だと言っているわけです.
+
+罠な点として, $\mathbb N \cup \mathbb N$ は $\mathbb N$ なわけです.  つまり,
+
+```rust
+type DoubleNat = Nat | Nat;
+```
+
+というのは次と全く何も変わりません.
+
+```rust
+type SingleNat = Nat;
+```
+
+これが代数的データ構造とは異なる点です.  右辺に列挙する型が異なる構造体だと制約を設けて初めて代数的データ構造と一致します.
