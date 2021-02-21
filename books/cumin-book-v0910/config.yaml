@@ -19,6 +19,7 @@ chapters:
 - operators.md
 - struct.md
 - enum.md
+- unions.md
 - let.md
 - functions.md
 - blocks.md
