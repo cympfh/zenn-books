@@ -38,18 +38,17 @@ $$\binom{HW}{A} \times 2^A \leq 3,294,720$$
 $2^A$ 通りの全探索はビットセットの考え方から比較的容易に実装できる:
 
 ```python
-for iset in 1 << A:
-  for i in range(A):
-    # do it
+for iset in range(1 << A):
+  # iset の i-th bit が立ってるかどうかでどうこうする
 ```
 
 一方 $\binom{m}{n}$ 通りの全探索も単純ではないが地道に実装すれば難しくはない.  私は [こんな風に](https://github.com/cympfh/procon-rs/blob/master/src/num/iter/combination.rs) 自前のライブラリとして実装していて, コンテストではこれをコピペしている.
 
 ```python
 ans = 0
-for p in binom(m * n, a):  # binom{mn}{a}
-  for q in power(2, a):    # 2 ** a
-    # 実際に置いてみて重なることのないことをチェック
+for p in binom(H * W, A):  # binom{mn}{a}
+  for q in range(1 << A):
+    # 実際に置いてみて, 重なることのないことをチェック
     if validate(p, q):
       ans += 1
 print(ans)
