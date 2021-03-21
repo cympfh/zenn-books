@@ -4,7 +4,8 @@ emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
 - atcoder
-published: false
+published: true
+
 ---
 
 ## 問題概要
