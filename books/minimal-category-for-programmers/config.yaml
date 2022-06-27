@@ -1,0 +1,9 @@
+title: "プログラマのための小さな圏論"
+summary: "圏論の簡単なエッセンスを薄く紹介します"
+topics: ["圏論"]
+published: false
+price: 0
+chapters:
+  - intro
+  - minipython
+  - list
