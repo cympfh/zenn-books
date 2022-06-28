@@ -306,7 +306,7 @@ c6
 
 sed で解くならこんなもんだと思うが, 現実では sed 以外の選択肢を考えるべきだろう.
 
-### [ABC203/A- Chinchirorin](https://atcoder.jp/contests/abc203/tasks/abc203_a)
+### [ABC203/A- Chinchirorin](https://atcoder.jp/contests/abc203/tasks/abc203_a) 🌝🌝🌝🌚🌚
 
 これも入力のうちに同じものが含まれてるかをチェックすればよい.
 前の問題と同じで, 例えば1つ目と2つ目が同じことを次のパターンでチェックする
@@ -351,7 +351,7 @@ c0
 
 `tend` で「直前の `s` に成功したら `end` というラベルまでジャンプする」という意味になる.
 
-## [ABC122/B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b) 🌝🌚🌚🌚🌚
+### [ABC122/B - ATCoder](https://atcoder.jp/contests/abc122/tasks/abc122_b) 🌝🌚🌚🌚🌚
 
 与えられる文字列の内, `/[ACGT]*/` という部分文字列であって, 最長のものの長さを答えよ.
 
